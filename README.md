@@ -44,21 +44,23 @@ def binaryImg(img, seuil):
             if imgG[i,j] > seuil:
                 imgB[i,j] = 255
     return imgB
+
+def autoBinaryImg(img):
+    hist = histogramLvlOfGrey(img)
+    sim = (statisticImageMoments(img, hist, 1))
+    return binaryImg(img, sim)
 ```
 
 Et pour nos tests, notre main : 
 
 ```python
 if __name__ == "__main__":
-    filename = "cerisierP.jpg"
+    filename = "4.jpg"
     name = filename.split(".")[0]
     img = cv.imread("imagesTP/"+filename)
     img = cv.cvtColor(img,cv.COLOR_BGR2RGB) # Convert to RGB
     plt.imshow(img)
-    hist = histogramLvlOfGrey(img)
-    sim = (statisticImageMoments(img, hist, 1))
-    print(sim)
-    bI =binaryImg(img, sim)
+    bI = autoBinaryImg(img)
     plt.imshow(bI, cmap="gray")
     plt.imsave(fname="imagesTP/output/" + name + "_binary.png", arr=bI, format="png", cmap="gray")
     plt.show()
