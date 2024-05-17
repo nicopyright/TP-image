@@ -10,9 +10,6 @@ def histogramLvlOfGrey(img):
     for line in imgG:
         for pixel in line:
             hist[pixel] += 1
-    plt.figure()
-    plt.bar(np.arange(256), hist)
-    plt.show()
     return hist
 
 def statisticImageMoments(img,hist,i):
@@ -32,12 +29,16 @@ def binaryImg(img, seuil):
 
 
 if __name__ == "__main__":
-    img = cv.imread("imagesTP/DJI_0093.jpg")
-    img = cv.cvtColor(img,cv.COLOR_BGR2RGB)
+    filename = "3.jpg"
+    name = filename.split(".")[0]
+    img = cv.imread("imagesTP/"+filename)
+    img = cv.cvtColor(img,cv.COLOR_BGR2RGB) # Convert to RGB
     plt.imshow(img)
-    #hist = histogramLvlOfGrey(img)
-    #SIM = (statisticImageMoments(img, hist, 1)).__floor__()
-    #print(SIM)
-    plt.imshow(binaryImg(img, 76), cmap="gray", aspect="auto")
+    hist = histogramLvlOfGrey(img)
+    sim = (statisticImageMoments(img, hist, 1))
+    print(sim)
+    bI =binaryImg(img, sim)
+    plt.imshow(bI, cmap="gray")
+    plt.imsave(fname="imagesTP/output/" + name + "_binary.png", arr=bI, format="png", cmap="gray")
     plt.show()
 
