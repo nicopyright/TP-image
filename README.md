@@ -50,18 +50,43 @@ Et pour nos tests, notre main :
 
 ```python
 if __name__ == "__main__":
-    img = cv.imread("imagesTP/DJI_0093.jpg")
-    img = cv.cvtColor(img,cv.COLOR_BGR2RGB)
+    filename = "cerisierP.jpg"
+    name = filename.split(".")[0]
+    img = cv.imread("imagesTP/"+filename)
+    img = cv.cvtColor(img,cv.COLOR_BGR2RGB) # Convert to RGB
     plt.imshow(img)
     hist = histogramLvlOfGrey(img)
-    SIM = (statisticImageMoments(img, hist, 1)).__floor__()
-    print(SIM)
-    plt.imshow(binaryImg(img, SIM), cmap="gray", aspect="auto")
+    sim = (statisticImageMoments(img, hist, 1))
+    print(sim)
+    bI =binaryImg(img, sim)
+    plt.imshow(bI, cmap="gray")
+    plt.imsave(fname="imagesTP/output/" + name + "_binary.png", arr=bI, format="png", cmap="gray")
     plt.show()
 ```
+
+Et voilà notre résultat sur l'image "" :
+<p align="center">
+  <image style="width:50%;" src="https://github.com/nicopyright/TP-image/assets/104890990/fb4b078e-87e0-4965-a01d-22e135202d1f"></image>
+</p>
+
+
 
 - Écrire un programme qui réalise les opérations suivantes :
   
 -- Calcul et affichage de l’histogramme d’une image (appel de la fonction   histogramme réalisée en question 3)
 -- Égalisation d’histogramme sur cette image
 -- Affichage de la fonction de répartition, de l’histogramme de l’image égalisée.
+
+# II. Transformée de Fourier
+
+### a. Harmoniques pures
+
+### b. Contour
+
+### c. Texture
+
+## 2. Phénomène de repliement
+
+# III. Changement d’espaces colorimétriques (comparaison HSV/IHLS)
+
+# IV. Segmentation d’images
