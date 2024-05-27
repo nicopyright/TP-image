@@ -177,7 +177,7 @@ Et voilà notre résultat sur l'image :
 <p align="center">
   <image style="width:42%;" src="img/imageMetal.png"></image> <image style="width:40%;" src="img/imageMetal_spectre2D.png"></image>
   <figcaption align="center">
-    Image, spectre 2D et spectre 3D de l'image "Metal0007GP"
+    Image et spectre 2D de l'image "Metal0007GP"
   </figcaption>
 </p>
 
@@ -187,7 +187,7 @@ Et voilà notre résultat sur l'image :
 <p align="center">
   <image style="width:42%;" src="img/imageWater.png"></image> <image style="width:40%;" src="img/imageWater_spectre2D.png"></image> 
   <figcaption align="center">
-    Image, spectre 2D et spectre 3D de l'image "Water0000GP"
+    Image et spectre 2D de l'image "Water0000GP"
   </figcaption>
 </p>
 
@@ -197,13 +197,35 @@ Et voilà notre résultat sur l'image :
 <p align="center">
   <image style="width:42%;" src="img/imageLeaves.png"></image> <image style="width:40%;" src="img/imageLeaves_spectre2D.png"></image>
   <figcaption align="center">
-    Image, spectre 2D et spectre 3D de l'image "Leaves0012GP"
+    Image et spectre 2D de l'image "Leaves0012GP"
   </figcaption>
 </p>
 
 \\\Ajouter description
 
 ## 2. Phénomène de repliement
+
+#### Avec image en 128x128 et Fe=1
+
+<p align="center">
+  <image style="width:43%;" src="img/imageRepliement128.png"></image> <image style="width:40%;" src="img/imageRepliement128_spectre2D.png"></image>
+  <figcaption align="center">
+    Image et spectre 2D de l'image générée avec <code>atom(128,128,0.15,0.37)</code>
+  </figcaption>
+</p>
+
+\\\ Ajouter description
+
+#### Avec image en 64x64 et Fe=0.5
+
+<p align="center">
+  <image style="width:43%;" src="img/imageRepliement64.png"></image> <image style="width:40%;" src="img/imageRepliement64_spectre2D.png"></image>
+  <figcaption align="center">
+    Image et spectre 2D de l'image générée avec <code >atom(64,64,0.15,0.37)</code >
+  </figcaption>
+</p>
+
+\\\ Ajouter description
 
 # III. Changement d’espaces colorimétriques (comparaison HSV/IHLS)
 
