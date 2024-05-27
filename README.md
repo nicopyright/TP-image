@@ -173,6 +173,36 @@ Et voilà notre résultat sur l'image :
 
 ### c. Texture
 
+#### Metal0007G
+<p align="center">
+  <image style="width:42%;" src="img/imageMetal.png"></image> <image style="width:40%;" src="img/imageMetal_spectre2D.png"></image>
+  <figcaption align="center">
+    Image, spectre 2D et spectre 3D de l'image "Metal0007GP"
+  </figcaption>
+</p>
+
+\\\Ajouter description
+
+#### Water0000G
+<p align="center">
+  <image style="width:42%;" src="img/imageWater.png"></image> <image style="width:40%;" src="img/imageWater_spectre2D.png"></image> 
+  <figcaption align="center">
+    Image, spectre 2D et spectre 3D de l'image "Water0000GP"
+  </figcaption>
+</p>
+
+\\\Ajouter description
+
+#### Leaves0012G
+<p align="center">
+  <image style="width:42%;" src="img/imageLeaves.png"></image> <image style="width:40%;" src="img/imageLeaves_spectre2D.png"></image>
+  <figcaption align="center">
+    Image, spectre 2D et spectre 3D de l'image "Leaves0012GP"
+  </figcaption>
+</p>
+
+\\\Ajouter description
+
 ## 2. Phénomène de repliement
 
 # III. Changement d’espaces colorimétriques (comparaison HSV/IHLS)
