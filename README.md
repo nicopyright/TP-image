@@ -117,6 +117,76 @@ Et voilà notre résultat sur l'image "" :
 
 ### b. Contour
 
+```python
+    image = np.zeros([128,128])
+    [height, width] =image.shape
+    for i in range(height):
+        for j in range(width):
+            if j < width/2 :
+                image[i,j] = 255
+```
+
+<p align="center">
+  <image style="width:50%;" src="img/contour_vertical.png"></image>
+  <figcaption align="center">
+    image "contour vertical"
+  </figcaption>
+</p>
+
+
+
+<p align="center">
+  <image style="width:50%;" src="img/spectre_contour_vertical.png"></image>
+  <figcaption align="center">
+    spectre 2D de l'image "contour vertical"
+  </figcaption>
+</p>
+
+```python
+    image = np.zeros([128,128])
+    [height, width] =image.shape
+    for i in range(height):
+        for j in range(width):
+            if i < height/2 :
+                image[i,j] = 255
+```
+
+<p align="center">
+  <image style="width:50%;" src="img/contour_horizontal.png"></image>
+  <figcaption align="center">
+    image "contour horizontal"
+  </figcaption>
+</p>
+
+<p align="center">
+  <image style="width:50%;" src="img/spectre_contour_horizontal.png"></image>
+  <figcaption align="center">
+    spectre 2D de l'image "contour horizontal"
+  </figcaption>
+</p>
+
+```python
+    image = np.zeros([128,128])
+    [height, width] =image.shape
+    for i in range(height):
+        for j in range(width):
+            if j+i < (height + width)/2 :
+                image[i,j] = 255
+```
+<p align="center">
+  <image style="width:50%;" src="img/contour_oblique.png"></image>
+  <figcaption align="center">
+    image "contour oblique"
+  </figcaption>
+</p>
+
+<p align="center">
+  <image style="width:50%;" src="img/spectre_contour_oblique.png"></image>
+  <figcaption align="center">
+    spectre 2D de l'image "contour oblique"
+  </figcaption>
+</p>
+
 ### c. Texture
 
 ## 2. Phénomène de repliement
