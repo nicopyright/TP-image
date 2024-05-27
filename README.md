@@ -229,4 +229,20 @@ Et voilà notre résultat sur l'image :
 
 # III. Changement d’espaces colorimétriques (comparaison HSV/IHLS)
 
+- A l’aide de la fonction rgb2hsv d’octave ou python (librairie opencv), effectuer le changement de coordonnées dans cet espace.
+
+   Utilisation de la fonction `rgb2hsv` :
+
+- Coder un système d’affichage niveau de gris pour la luminosité et la saturation et couleur pour la teinte (affichage de la teinte uniquement en couleur, cf images présentées en cours). L’affichage peut être valider sur l’image confiserie- smarties-lentilles_121-50838.jpg.
+
+    baba
+
+- Coder le changement d’espace IHSL donné dans le cours colorimétrie.
+
+    baba
+
+- Comparer des images transformées dans les deux espaces. Quelle sont les limites de l’espace HSV ?
+
+    baba
+
 # IV. Segmentation d’images
