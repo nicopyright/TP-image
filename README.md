@@ -1,3 +1,5 @@
+<link href="style.css" rel="stylesheet"></link>
+
 # Prise en main "rapide"
 
 - Tester le programme qui lit puis affiche une image couleur ainsi que ses trois composantes. Les tests seront réalisés à partir des images disponibles dans le répertoire fourni.
@@ -82,6 +84,36 @@ Et voilà notre résultat sur l'image "" :
 # II. Transformée de Fourier
 
 ### a. Harmoniques pures
+
+<p align="center">
+  <image style="width:50%;" src="img/spectre1.png"></image>
+  <figcaption align="center">
+    Spectre 2D de l'image générée avec les paramètres f1=0.1 et f2=0
+  </figcaption>
+</p>
+
+
+<p align="center">
+  <image style="width:50%;" src="img/spectre2.png"></image>
+  <figcaption align="center">
+  Spectre 2D de l'image générée avec les paramètres f1=0 et f2=0.1
+  </figcaption>
+</p>
+
+<p align="center">
+  <image style="width:50%;" src="img/spectre3.png"></image>
+  <figcaption align="center">
+  Spectre 2D de l'image générée avec les paramètres f1=0.3 et f2=0.3
+  </figcaption>
+</p>
+
+<p align="center">
+  <image style="width:50%;" src="img/spectre4.png"></image>
+  <figcaption align="center">
+  Spectre 2D de l'image générée avec les paramètres f1=-0.3 et f2=0.1
+  </figcaption>
+</p>
+
 
 ### b. Contour
 
