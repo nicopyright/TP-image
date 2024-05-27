@@ -68,7 +68,7 @@ if __name__ == "__main__":
     plt.show()
 ```
 
-Et voilà notre résultat sur l'image "" :
+Et voilà notre résultat sur l'image :
 <p align="center">
   <image style="width:50%;" src="https://github.com/nicopyright/TP-image/assets/104890990/fb4b078e-87e0-4965-a01d-22e135202d1f"></image>
 </p>
@@ -85,37 +85,40 @@ Et voilà notre résultat sur l'image "" :
 
 ### a. Harmoniques pures
 
-<p align="center">
-  <image style="width:50%;" src="img/spectre1.png"></image>
+
+<p align="center" style="display:inline-block;">
+    <image style="width:42%;" src="img/image1.png" ></image> <image style="width:40%;" src="img/spectre1.png"></image>
   <figcaption align="center">
-    Spectre 2D de l'image générée avec les paramètres f1=0.1 et f2=0
+    Image et spectre 2D de l'image générée avec les paramètres f1=0.1 et f2=0
   </figcaption>
 </p>
 
 
 <p align="center">
-  <image style="width:50%;" src="img/spectre2.png"></image>
+  <image style="width:42%;" src="img/image2.png"></image> <image style="width:40%;" src="img/spectre2.png"></image>
   <figcaption align="center">
-  Spectre 2D de l'image générée avec les paramètres f1=0 et f2=0.1
+  Image et spectre 2D de l'image générée avec les paramètres f1=0 et f2=0.1
   </figcaption>
 </p>
 
 <p align="center">
-  <image style="width:50%;" src="img/spectre3.png"></image>
+  <image style="width:42%;" src="img/image3.png"></image> <image style="width:40%;" src="img/spectre3.png"></image>
   <figcaption align="center">
-  Spectre 2D de l'image générée avec les paramètres f1=0.3 et f2=0.3
+  Image et spectre 2D de l'image générée avec les paramètres f1=0.3 et f2=0.3
   </figcaption>
 </p>
 
 <p align="center">
-  <image style="width:50%;" src="img/spectre4.png"></image>
+<image style="width:42%;" src="img/image4.png"></image> <image style="width:40%;" src="img/spectre4.png"></image>
   <figcaption align="center">
-  Spectre 2D de l'image générée avec les paramètres f1=-0.3 et f2=0.1
+  Image et spectre 2D de l'image générée avec les paramètres f1=-0.3 et f2=0.1
   </figcaption>
 </p>
 
 
 ### b. Contour
+
+#### Contour Vertical
 
 ```python
     image = np.zeros([128,128])
@@ -127,20 +130,13 @@ Et voilà notre résultat sur l'image "" :
 ```
 
 <p align="center">
-  <image style="width:50%;" src="img/contour_vertical.png"></image>
+  <image style="width:42%;" src="img/contour_vertical.png"></image> <image style="width:40%;" src="img/spectre_contour_vertical.png"></image>
   <figcaption align="center">
-    image "contour vertical"
+    Image et spectre 2D de l'image "contour vertical"
   </figcaption>
 </p>
 
-
-
-<p align="center">
-  <image style="width:50%;" src="img/spectre_contour_vertical.png"></image>
-  <figcaption align="center">
-    spectre 2D de l'image "contour vertical"
-  </figcaption>
-</p>
+#### Contour horizontal
 
 ```python
     image = np.zeros([128,128])
@@ -152,18 +148,13 @@ Et voilà notre résultat sur l'image "" :
 ```
 
 <p align="center">
-  <image style="width:50%;" src="img/contour_horizontal.png"></image>
+  <image style="width:42%;" src="img/contour_horizontal.png"></image> <image style="width:40%;" src="img/spectre_contour_horizontal.png"></image>
   <figcaption align="center">
-    image "contour horizontal"
+    Image et spectre 2D de l'image "contour horizontal"
   </figcaption>
 </p>
 
-<p align="center">
-  <image style="width:50%;" src="img/spectre_contour_horizontal.png"></image>
-  <figcaption align="center">
-    spectre 2D de l'image "contour horizontal"
-  </figcaption>
-</p>
+#### Contour oblique
 
 ```python
     image = np.zeros([128,128])
@@ -174,16 +165,9 @@ Et voilà notre résultat sur l'image "" :
                 image[i,j] = 255
 ```
 <p align="center">
-  <image style="width:50%;" src="img/contour_oblique.png"></image>
+  <image style="width:42%;" src="img/contour_oblique.png"></image> <image style="width:40%;" src="img/spectre_contour_oblique.png"></image>
   <figcaption align="center">
-    image "contour oblique"
-  </figcaption>
-</p>
-
-<p align="center">
-  <image style="width:50%;" src="img/spectre_contour_oblique.png"></image>
-  <figcaption align="center">
-    spectre 2D de l'image "contour oblique"
+    Image et spectre 2D de l'image "contour oblique"
   </figcaption>
 </p>
 
