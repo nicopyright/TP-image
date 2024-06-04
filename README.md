@@ -323,9 +323,9 @@ Ce qui nous donne les images suivantes :
 
 <p align="center">
   <image style="width:40%;" src="img/smarties_original.png"></image> <image style="width:40%;" src="img/smarties_teinte.png"></image> <image style="width:40%;" src="img/smarties_saturation.png"></image> <image style="width:40%;" src="img/smarties_valeur.png"></image> <image style="width:40%;" src="img/smarties_IHSL.png"></image>
-  <figcaption align="center"> 
+  <p align="center"> 
     Images et composantes pour arriver à l'image IHSL
-  </figcaption>
+  </p>
 </p>
 
 Quelle sont les limites de l’espace HSV ?
