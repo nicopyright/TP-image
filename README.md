@@ -1,4 +1,22 @@
-<link href="style.css" rel="stylesheet"></link>
+
+<style>
+  .caption{
+    align: center;
+    font-style: italic;
+    font-size: small;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.inline-block {
+    display: inline-block;display: flex; justify-content:space-around;
+ }
+
+p{
+    display: flex;
+    align-content: center;
+}
+</style>
 
 # Prise en main "rapide"
 <div align="justify">
