@@ -859,6 +859,8 @@ Comme pour les segmentations précédentes, on a utilisé les histogrammes pour 
 
 ### Modification de la couleur sur l'image couleur
 
+Il suffisait ensuite d'appliquer le calque à l'image originale et d'ensuite ajouter une couleur générée avec les commandes `greenImg = np.zeros_like(coquelicots)` et `greenImg[:, :, 1] = 100`. On obtiens alors les images suivantes :
+
 <p align="center">
   <image style="width:40%;" src="img/clquelicots_sansf.png"></image> <image style="width:40%;" src="img/clquelicots_fvert.png"></image>
   <div align="center" > 
@@ -866,9 +868,3 @@ Comme pour les segmentations précédentes, on a utilisé les histogrammes pour 
   </div>
 </p>
 
-
-
-Une image verte a été générée avec les commande :
-`
-greenImg = np.zeros_like(coquelicots)` et `
-greenImg[:, :, 1] = 100`
