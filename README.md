@@ -6,7 +6,7 @@
 
 <p align="center" >
     <image style="width:80%;" src="img/CerisierP_couleurs.png" ></image>
-  <figcaption align="center">
+  <figcaption align="center" class="caption"> 
     Image d'origine et ses trois composantes du fichier "CerisierP.jpg"
   </figcaption>
 </p>
@@ -32,7 +32,7 @@ Et Voici un histogramme correspondant à l'image "cerisierp.jpg" :
 
 <p align="center" style="display:inline-block;">
     <image style="width:80%;" src="img/histo_CerisierP.png" ></image>
-  <figcaption align="center">
+  <figcaption align="center" class="caption"> 
     Histogramme de l'image "cerisierp.jpg"
   </figcaption>
 </p>  
@@ -80,7 +80,7 @@ if __name__ == "__main__":
 Et voilà notre résultat sur l'image :
 <p align="center" style="display:inline-block;">
     <image style="width:80%;" src="img/result_binarisation.png" ></image>
-  <figcaption align="center">
+  <figcaption align="center" class="caption"> 
     Image binarisée avec seuil calculé de l'image "CerisierP.jpg"
   </figcaption>
 </p>
@@ -100,7 +100,7 @@ Et voilà notre résultat sur l'image :
 
 <p align="center" style="display:inline-block;">
     <image style="width:42%;" src="img/image1.png" ></image> <image style="width:40%;" src="img/spectre1.png"></image>
-  <figcaption align="center">
+  <figcaption align="center" class="caption"> 
     Image et spectre 2D de l'image générée avec les paramètres f1=0.1 et f2=0
   </figcaption>
 </p>
@@ -108,21 +108,21 @@ Et voilà notre résultat sur l'image :
 
 <p align="center">
   <image style="width:42%;" src="img/image2.png"></image> <image style="width:40%;" src="img/spectre2.png"></image>
-  <figcaption align="center">
+  <figcaption align="center" class="caption"> 
   Image et spectre 2D de l'image générée avec les paramètres f1=0 et f2=0.1
   </figcaption>
 </p>
 
 <p align="center">
   <image style="width:42%;" src="img/image3.png"></image> <image style="width:40%;" src="img/spectre3.png"></image>
-  <figcaption align="center">
+  <figcaption align="center" class="caption"> 
   Image et spectre 2D de l'image générée avec les paramètres f1=0.3 et f2=0.3
   </figcaption>
 </p>
 
 <p align="center">
 <image style="width:42%;" src="img/image4.png"></image> <image style="width:40%;" src="img/spectre4.png"></image>
-  <figcaption align="center">
+  <figcaption align="center" class="caption"> 
   Image et spectre 2D de l'image générée avec les paramètres f1=-0.3 et f2=0.1
   </figcaption>
 </p>
@@ -143,7 +143,7 @@ Et voilà notre résultat sur l'image :
 
 <p align="center">
   <image style="width:42%;" src="img/contour_vertical.png"></image> <image style="width:40%;" src="img/spectre_contour_vertical.png"></image>
-  <figcaption align="center">
+  <figcaption align="center" class="caption"> 
     Image et spectre 2D de l'image "contour vertical"
   </figcaption>
 </p>
@@ -163,7 +163,7 @@ On observe un contour vertical dans l'image, ce qui se traduit par une ligne hor
 
 <p align="center">
   <image style="width:42%;" src="img/contour_horizontal.png"></image> <image style="width:40%;" src="img/spectre_contour_horizontal.png"></image>
-  <figcaption align="center">
+  <figcaption align="center" class="caption"> 
     Image et spectre 2D de l'image "contour horizontal"
   </figcaption>
 </p>
@@ -182,7 +182,7 @@ On observe un contour horizontal dans l'image, ce qui se traduit par une ligne v
 ```
 <p align="center">
   <image style="width:42%;" src="img/contour_oblique.png"></image> <image style="width:40%;" src="img/spectre_contour_oblique.png"></image>
-  <figcaption align="center">
+  <figcaption align="center" class="caption"> 
     Image et spectre 2D de l'image "contour oblique"
   </figcaption>
 </p>
@@ -195,7 +195,7 @@ Toutes les images de cette partie ont étés mises en nuances de gris pour des r
 #### Metal0007GP
 <p align="center">
   <image style="width:42%;" src="img/imageMetal.png"></image> <image style="width:40%;" src="img/imageMetal_spectre2D.png"></image>
-  <figcaption align="center">
+  <figcaption align="center" class="caption"> 
     Image et spectre 2D de l'image "Metal0007GP"
   </figcaption>
 </p>
@@ -205,7 +205,7 @@ On peut observer des lignes horizontales et verticales dans l'image, ce qui se t
 #### Water0000GP
 <p align="center">
   <image style="width:42%;" src="img/imageWater.png"></image> <image style="width:40%;" src="img/imageWater_spectre2D.png"></image> 
-  <figcaption align="center">
+  <figcaption align="center" class="caption"> 
     Image et spectre 2D de l'image "Water0000GP"
   </figcaption>
 </p>
@@ -215,7 +215,7 @@ Contrairement à l'image précédente, cette image est plus diffuse. On peut né
 #### Leaves0012GP
 <p align="center">
   <image style="width:42%;" src="img/imageLeaves.png"></image> <image style="width:40%;" src="img/imageLeaves_spectre2D.png"></image>
-  <figcaption align="center">
+  <figcaption align="center" class="caption"> 
     Image et spectre 2D de l'image "Leaves0012GP"
   </figcaption>
 </p>
@@ -228,7 +228,7 @@ Contrairement à l'image précédente, cette image est plus diffuse. On peut né
 
 <p align="center">
   <image style="width:43%;" src="img/imageRepliement128.png"></image> <image style="width:40%;" src="img/imageRepliement128_spectre2D.png"></image>
-  <figcaption align="center">
+  <figcaption align="center" class="caption"> 
     Image et spectre 2D de l'image générée avec <code>atom(128,128,0.15,0.37)</code>
   </figcaption>
 </p>
@@ -237,7 +237,7 @@ Contrairement à l'image précédente, cette image est plus diffuse. On peut né
 
 <p align="center">
   <image style="width:43%;" src="img/imageRepliement64.png"></image> <image style="width:40%;" src="img/imageRepliement64_spectre2D.png"></image>
-  <figcaption align="center">
+  <figcaption align="center" class="caption"> 
     Image et spectre 2D de l'image générée avec <code >atom(64,64,0.15,0.37)</code >
   </figcaption>
 </p>
@@ -323,9 +323,9 @@ Ce qui nous donne les images suivantes :
 
 <p align="center">
   <image style="width:40%;" src="img/smarties_original.png"></image> <image style="width:40%;" src="img/smarties_teinte.png"></image> <image style="width:40%;" src="img/smarties_saturation.png"></image> <image style="width:40%;" src="img/smarties_valeur.png"></image> <image style="width:40%;" src="img/smarties_IHSL.png"></image>
-  <p align="center"> 
+  <figcaption align="center" class="caption"> 
     Images et composantes pour arriver à l'image IHSL
-  </p>
+  </figcaption>
 </p>
 
 Quelle sont les limites de l’espace HSV ?
