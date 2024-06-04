@@ -1,32 +1,15 @@
-
-<style>
-  .caption{
-    align: center;
-    font-style: italic;
-    font-size: small;
-    padding-top: 0px;
-    margin-top: 0px;
-}
-
-.inline-block {
-    display: inline-block;display: flex; justify-content:space-around;
- }
-
-p{
-    display: flex;
-    align-content: center;
-}
-</style>
+<div align="justify">
+Toutes les réponses, images et bouts de code requis pour le compte rendu sont dans le README. Aucun fichier du dépôt n'est à aller vérifier. 
 
 # Prise en main "rapide"
-<div align="justify">
+
 - Tester le programme qui lit puis affiche une image couleur ainsi que ses trois composantes. Les tests seront réalisés à partir des images disponibles dans le répertoire fourni.
 
 <p align="center" >
     <image style="width:80%;" src="img/CerisierP_couleurs.png" ></image>
-  <figcaption align="center" class="caption"> 
-    Image d'origine et ses trois composantes du fichier "CerisierP.jpg"
-  </figcaption>
+  <div align="center"> 
+    <i>Image d'origine et ses trois composantes du fichier "CerisierP.jpg"</i>
+  </div>
 </p>
   
 - Tester la fonction histogramme des niveaux de gris d’une image.
@@ -50,9 +33,9 @@ Et Voici un histogramme correspondant à l'image "cerisierp.jpg" :
 
 <p align="center" style="display:inline-block;">
     <image style="width:80%;" src="img/histo_CerisierP.png" ></image>
-  <figcaption align="center" class="caption"> 
-    Histogramme de l'image "cerisierp.jpg"
-  </figcaption>
+  <div align="center" > 
+    <i>Histogramme de l'image "cerisierp.jpg"</i>
+  </div>
 </p>  
 - Écrire et tester un programme permettant de binariser une image. Tout d’abord le seuil sera entré en paramètre (choisi à partir de l’examen visuel de l’histogramme de l’image), puis il sera obtenu automatiquement à partir d’une fonction basée sur la méthode des moments statistiques (cf cours).
 
@@ -98,9 +81,9 @@ if __name__ == "__main__":
 Et voilà notre résultat sur l'image :
 <p align="center" style="display:inline-block;">
     <image style="width:80%;" src="img/result_binarisation.png" ></image>
-  <figcaption align="center" class="caption"> 
-    Image binarisée avec seuil calculé de l'image "CerisierP.jpg"
-  </figcaption>
+  <div align="center"> 
+    <i>Image binarisée avec seuil calculé de l'image "CerisierP.jpg"</i>
+  </div>
 </p>
 
 - Écrire un programme qui réalise les opérations suivantes :
@@ -118,31 +101,31 @@ Et voilà notre résultat sur l'image :
 
 <p align="center" style="display:inline-block;">
     <image style="width:42%;" src="img/image1.png" ></image> <image style="width:40%;" src="img/spectre1.png"></image>
-  <figcaption align="center" class="caption"> 
-    Image et spectre 2D de l'image générée avec les paramètres f1=0.1 et f2=0
-  </figcaption>
+  <div align="center" > 
+    <i>Image et spectre 2D de l'image générée avec les paramètres f1=0.1 et f2=0</i>
+  </div>
 </p>
 
 
 <p align="center">
   <image style="width:42%;" src="img/image2.png"></image> <image style="width:40%;" src="img/spectre2.png"></image>
-  <figcaption align="center" class="caption"> 
-  Image et spectre 2D de l'image générée avec les paramètres f1=0 et f2=0.1
-  </figcaption>
+  <div align="center" > 
+  <i>Image et spectre 2D de l'image générée avec les paramètres f1=0 et f2=0.1</i>
+  </div>
 </p>
 
 <p align="center">
   <image style="width:42%;" src="img/image3.png"></image> <image style="width:40%;" src="img/spectre3.png"></image>
-  <figcaption align="center" class="caption"> 
-  Image et spectre 2D de l'image générée avec les paramètres f1=0.3 et f2=0.3
-  </figcaption>
+  <div align="center" > 
+  <i>Image et spectre 2D de l'image générée avec les paramètres f1=0.3 et f2=0.3</i>
+  </div>
 </p>
 
 <p align="center">
 <image style="width:42%;" src="img/image4.png"></image> <image style="width:40%;" src="img/spectre4.png"></image>
-  <figcaption align="center" class="caption"> 
-  Image et spectre 2D de l'image générée avec les paramètres f1=-0.3 et f2=0.1
-  </figcaption>
+  <div align="center" > 
+  <i>Image et spectre 2D de l'image générée avec les paramètres f1=-0.3 et f2=0.1</i>
+  </div>
 </p>
 
 
@@ -161,9 +144,9 @@ Et voilà notre résultat sur l'image :
 
 <p align="center">
   <image style="width:42%;" src="img/contour_vertical.png"></image> <image style="width:40%;" src="img/spectre_contour_vertical.png"></image>
-  <figcaption align="center" class="caption"> 
-    Image et spectre 2D de l'image "contour vertical"
-  </figcaption>
+  <div align="center" > 
+    <i>Image et spectre 2D de l'image "contour vertical"</i>
+  </div>
 </p>
 
 On observe un contour vertical dans l'image, ce qui se traduit par une ligne horizontale dans son spectre. La ligne est en fait en pointillée étant donné la discretisation de l'image.
@@ -181,9 +164,9 @@ On observe un contour vertical dans l'image, ce qui se traduit par une ligne hor
 
 <p align="center">
   <image style="width:42%;" src="img/contour_horizontal.png"></image> <image style="width:40%;" src="img/spectre_contour_horizontal.png"></image>
-  <figcaption align="center" class="caption"> 
-    Image et spectre 2D de l'image "contour horizontal"
-  </figcaption>
+  <div align="center" > 
+    <i>Image et spectre 2D de l'image "contour horizontal"</i>
+  </div>
 </p>
 
 On observe un contour horizontal dans l'image, ce qui se traduit par une ligne verticale dans son spectre. Comme pour le spectre précédent, la ligne est en pointillée étant donné la discretisation de l'image.
@@ -200,9 +183,9 @@ On observe un contour horizontal dans l'image, ce qui se traduit par une ligne v
 ```
 <p align="center">
   <image style="width:42%;" src="img/contour_oblique.png"></image> <image style="width:40%;" src="img/spectre_contour_oblique.png"></image>
-  <figcaption align="center" class="caption"> 
-    Image et spectre 2D de l'image "contour oblique"
-  </figcaption>
+  <div align="center" > 
+    <i>Image et spectre 2D de l'image "contour oblique"</i>
+  </div>
 </p>
 On observe un contour oblique dans l'image, ce qui se traduit par une ligne horizontale, une ligne verticale et une ligne oblique opposée à celle de l'image dans son spectre. Théoriquement, il n'y aurais qu'une ligne oblique mais étant donné que l'image est discrète et composée de pixels, la ligne "oblique" visible est en fait un escalier composé de lignes horizontales et verticales.
 
@@ -213,9 +196,9 @@ Toutes les images de cette partie ont étés mises en nuances de gris pour des r
 #### Metal0007GP
 <p align="center">
   <image style="width:42%;" src="img/imageMetal.png"></image> <image style="width:40%;" src="img/imageMetal_spectre2D.png"></image>
-  <figcaption align="center" class="caption"> 
-    Image et spectre 2D de l'image "Metal0007GP"
-  </figcaption>
+  <div align="center" > 
+    <i>Image et spectre 2D de l'image "Metal0007GP"</i>
+  </div>
 </p>
 
 On peut observer des lignes horizontales et verticales dans l'image, ce qui se traduit dans le spectre par des lignes verticales et horizontales. On peut même distinguer l'inclinaison des lignes de l'image depuis les lignes du spectre. 
@@ -223,9 +206,9 @@ On peut observer des lignes horizontales et verticales dans l'image, ce qui se t
 #### Water0000GP
 <p align="center">
   <image style="width:42%;" src="img/imageWater.png"></image> <image style="width:40%;" src="img/imageWater_spectre2D.png"></image> 
-  <figcaption align="center" class="caption"> 
-    Image et spectre 2D de l'image "Water0000GP"
-  </figcaption>
+  <div align="center" > 
+    <i>Image et spectre 2D de l'image "Water0000GP"</i>
+  </div>
 </p>
 
 Contrairement à l'image précédente, cette image est plus diffuse. On peut néanmoins remarquer que les vagues sont des formes horizontales. Ces formes se traduisent dans le spectre par une forme de sablier vertical
@@ -233,9 +216,9 @@ Contrairement à l'image précédente, cette image est plus diffuse. On peut né
 #### Leaves0012GP
 <p align="center">
   <image style="width:42%;" src="img/imageLeaves.png"></image> <image style="width:40%;" src="img/imageLeaves_spectre2D.png"></image>
-  <figcaption align="center" class="caption"> 
-    Image et spectre 2D de l'image "Leaves0012GP"
-  </figcaption>
+  <div align="center" > 
+    <i>Image et spectre 2D de l'image "Leaves0012GP"</i>
+  </div>
 </p>
 
 \\\Ajouter description
@@ -246,18 +229,18 @@ Contrairement à l'image précédente, cette image est plus diffuse. On peut né
 
 <p align="center">
   <image style="width:43%;" src="img/imageRepliement128.png"></image> <image style="width:40%;" src="img/imageRepliement128_spectre2D.png"></image>
-  <figcaption align="center" class="caption"> 
-    Image et spectre 2D de l'image générée avec <code>atom(128,128,0.15,0.37)</code>
-  </figcaption>
+  <div align="center" > 
+    <i>Image et spectre 2D de l'image générée avec <code>atom(128,128,0.15,0.37)</code></i>
+  </div>
 </p>
 
 #### Avec image en 64x64 et Fe=0.5
 
 <p align="center">
   <image style="width:43%;" src="img/imageRepliement64.png"></image> <image style="width:40%;" src="img/imageRepliement64_spectre2D.png"></image>
-  <figcaption align="center" class="caption"> 
-    Image et spectre 2D de l'image générée avec <code >atom(64,64,0.15,0.37)</code >
-  </figcaption>
+  <div align="center" > 
+    <i>Image et spectre 2D de l'image générée avec <code >atom(64,64,0.15,0.37)</code ></i>
+  </div>
 </p>
 
 La première image et son spectre (celle en 128x128) montrent une image d'un signal "continu", contrairement à la deuxième image et spectre (en 64x64) qui, comme attendu représente le même spectre mais avec une résolution amoidrie. On en conclue alors que la résolution des images ne change pas directement leurs spectres, mais change la précision de celui-ci.
@@ -341,9 +324,9 @@ Ce qui nous donne les images suivantes :
 
 <p align="center">
   <image style="width:40%;" src="img/smarties_original.png"></image> <image style="width:40%;" src="img/smarties_teinte.png"></image> <image style="width:40%;" src="img/smarties_saturation.png"></image> <image style="width:40%;" src="img/smarties_valeur.png"></image> <image style="width:40%;" src="img/smarties_IHSL.png"></image>
-  <figcaption align="center" class="caption"> 
-    Images et composantes pour arriver à l'image IHSL
-  </figcaption>
+  <div align="center" > 
+    <i>Images et composantes pour arriver à l'image IHSL</i>
+  </div>
 </p>
 
 Quelle sont les limites de l’espace HSV ?
